@@ -18,6 +18,11 @@ _________________________________________________________________
 
 git add .
 
-git rm --cached index.php
+git rm --cached index.php // исключить из буфера
 
 git commit -a -m"init"
+
+git commit -m"add files"
+
+git add "*.php" // индексировать файлы с разрешением  php
+
