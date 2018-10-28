@@ -1,0 +1,23 @@
+git init  // создаем репозиторий
+
+git config --global user.name "maxinus"  // задать имя пользователя
+
+git config --global user.email vectorman777@gmail.com // указать электронную почту
+
+git config --list // команда проверки свойств git 
+
+.gitignore // файл создается в рабочей папке для конфигурации игнора файлов 
+
+git status // показывает текущий статус проекта 
+
+git status --untracked-files=normal
+
+git status --untracked-files=all
+
+_________________________________________________________________
+
+git add .
+
+git rm --cached index.php
+
+git commit -a -m"init"
