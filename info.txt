@@ -39,6 +39,20 @@ git log -p -2 // показывает последний коммит и какие изменения в нем проводились
 
 _________________________________________________________________
 
-git config --global core.editor "'C:\Program Files\Sublime Text 3\sublime_text.exe' -multiInst -notabbar -nosession -noPlugin"?
+git config --global core.editor "'C:\Program Files\Sublime Text 3\sublime_text.exe' -multiInst -notabbar -nosession -noPlugin"
+-----------------------------------------------------------------
+[core]
+	editor = 'C:\\Program Files\\Sublime Text 3\\sublime_text.exe' -multiInst -notabbar -nosession -noPlugin?
+_________________________________________________________________
+
+git checkout -и new_f // создать новую ветку и переключиться на нее
+
+git branch // просмотреть все существующие ветки
+
+git branch -v // получить более детальную информацию
+
+git branch new_f2 // создать новую ветку с именем new_f2 и остаться при этом на старой
+
+
 
 
