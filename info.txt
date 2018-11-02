@@ -36,3 +36,9 @@ git log --since=2.weeks // показать коммиты за последние две недели
 
 git log -p -2 // показывает последний коммит и какие изменения в нем проводились, цифра 2 означает, что нужно вывести два последних коммита 
 
+
+_________________________________________________________________
+
+git config --global core.editor "'C:\Program Files\Sublime Text 3\sublime_text.exe' -multiInst -notabbar -nosession -noPlugin"?
+
+
